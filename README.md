@@ -20,7 +20,7 @@ To write a program to predict car prices using Linear Regression and Polynomial 
 /*
 Program to implement Linear and Polynomial Regression models for predicting car prices.
 Developed by: SATHISH H
-RegisterNumber: 212225240142
+RegisterNumber:  212225240142
 */
 
 import pandas as pd
@@ -60,8 +60,8 @@ poly_model.fit(x_train,y_train)
 y_pred_poly=poly_model.predict(x_test)
 
 #Evaluate models
-print('Name:SATHISH H')
-print('Reg. No:212225240142 ')
+print('Name: SATHISH H')
+print('Reg. No: 212225240142 ')
 print("Linear Regression:")
 #mse=mean_squared_error(y_test,y_pred_linear)
 print('MSE=',mean_squared_error(y_test,y_pred_linear))
@@ -92,7 +92,10 @@ plt.show()
 ## Output:
 
 LINEAR VS POLYNOMIAL REGRESSION
-<img width="868" height="468" alt="image" src="https://github.com/user-attachments/assets/e07ebc03-c640-45e8-a775-8fb6703b7174" />
+<img width="585" height="408" alt="image" src="https://github.com/user-attachments/assets/efe85dff-323e-4203-a7a4-31c8061965c3" />
+<img width="368" height="179" alt="image" src="https://github.com/user-attachments/assets/c96ffd50-96c3-4401-b503-08dc4bff6a68" />
+<img width="458" height="178" alt="image" src="https://github.com/user-attachments/assets/a6073c15-32b8-42ce-9535-be5f6f7c601c" />
+<img width="586" height="364" alt="image" src="https://github.com/user-attachments/assets/552ee013-911f-4de4-8ec8-8ea4c9ef6c2c" />
 
 ## Result:
 Thus, the program to implement Linear and Polynomial Regression models for predicting car prices was written and verified using Python programming.
